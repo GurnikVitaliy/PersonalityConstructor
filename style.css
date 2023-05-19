@@ -4,7 +4,7 @@ body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #main {
-    width: 100%;
+/*     width: 100%; */
     padding: 20px;
     background-image: linear-gradient(to right top, #b9d1ae, #b4d29d, #b3d28a, #b3d276, #b6d15f, #abc354, #9fb64a, #94a93f, #788d3f, #60713d, #4a5538, #373b32);
 }
