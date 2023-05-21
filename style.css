@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#main {
+    padding: 20px;
+    background-image: linear-gradient(to right top, #b9d1ae, #b4d29d, #b3d28a, #b3d276, #b6d15f, #abc354, #9fb64a, #94a93f, #788d3f, #60713d, #4a5538, #373b32);
+}
+
+#main__line {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#demo {
+    display: flex;
+    justify-content:flex-end
+}
+
+#modal__contact {
+    font-family:Arial, Helvetica, sans-serif;
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    color: aliceblue;
+    text-align: center;
+    display: none;
+    background-image: linear-gradient(to right top, #4c5daf, #4256a3, #395097, #30498b, #28437f, #26417f, #253e7e, #243c7e, #2d3d88, #373e92, #433e9c, #513da4);
+}
+#modal__contact.active {
+    display: block;
+}
+.header__main-line {
+    width: 100px;
+    height: 1px;
+    background-color: azure;
+    margin: 50px auto;
+}
+
+.line1 {
+    width: 50px;
+    height: 1px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+.line2 {
+    width: 40px;
+    height: 1px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+.line3 {
+    width: 30px;
+    height: 1px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+#main__menu-hidden {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    display: none;
+}
+
+.menu {
+    color: aliceblue;
+    text-align: center;
+    /* display: none; */
+    width: 60%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#main__menu-hidden.active {
+    display: block;
+}
+
+.link {
+    color: rgb(240, 233, 233);
+    width: 100%;
+    background-color: rgb(14, 15, 15);
+    padding: 10px;
+}
+
+.link:hover {
+    background-color: rgb(55, 52, 52);
+    color: rgb(222, 151, 151);
+}
+.menu__link {
+    color: brown;
+    margin-bottom: 30px;
+}
+
+
+#header__main {
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    background-size: cover;
+    background-image: url('https://w.forfun.com/fetch/ec/ecc8608ebb9732b0a74cc79493f1a31f.jpeg?w=1470&r=0.5625');
+}
+
+#header__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text {
+    color: aliceblue;
+    width: 300px;
+}
+
+#abouus {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.abouus__foto-img{
+    width: 100%;
+}
+
+.abouus__info {
+    /* background-color: rgb(42, 43, 44); */
+    color: rgb(233, 240, 240);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+.block {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: azure;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.block__info {
+    text-align: center;
+    width: 90%;
+    border: 1px solid silver;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.block__info:hover {
+    background-image: linear-gradient(to right top, #3d3138, #483445, #4f3855, #513e68, #4b467c, #384d80, #225281, #00577f, #005465, #1a4d4b, #2f4439, #373b32);
+}
+
+.cont__text {
+    font-size: 20px;
+}
+.cont {
+    display: none;
+}
+
+.block__info.active .cont {
+    display: block;
+}
+
+
+
+
+/*  */
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .slider {
+    width: 100%;
+    background-color: rgb(21, 19, 19);
+    color: aliceblue;
+    font-family:'Courier New', Courier, monospace;
+    padding-top:50px;
+    padding-bottom: 50px;
+    display: none;
+  }
+  
+  .content {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    font-size: 20px;
+  }
+  
+  .slider.active {
+    display: block;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .pica2 {
+    display: flex;
+    justify-content: flex-end;
+  }
