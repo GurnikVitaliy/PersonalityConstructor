@@ -44,10 +44,9 @@ const activeSlider = n => {
   slider[n].classList.add('active');
 }
 
- document.getElementById("demo").oncontextmenu = function (e) {
+ document.querySelector(".demo").oncontextmenu = function (e) {
     return false;
 };
-
 // setInterval(() => {
 
   
