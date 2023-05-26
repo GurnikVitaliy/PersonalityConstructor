@@ -44,17 +44,20 @@ const activeSlider = n => {
   slider[n].classList.add('active');
 }
 
+ document.getElementById("demo").oncontextmenu = function (e) {
+    return false;
+};
 
-setInterval(() => {
+// setInterval(() => {
 
   
-    if(index === slider.length - 1) {
-      index = 0;
-      activeSlider(index);
-    }
-    else {
-      index++;
-      activeSlider(index);
-    }
+//     if(index === slider.length - 1) {
+//       index = 0;
+//       activeSlider(index);
+//     }
+//     else {
+//       index++;
+//       activeSlider(index);
+//     }
 
-},13000)
+// },13000)
