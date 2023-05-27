@@ -31,7 +31,7 @@ body {
     color: aliceblue;
     text-align: center;
     display: none;
-    background-image: linear-gradient(to right top, #4c5daf, #4256a3, #395097, #30498b, #28437f, #26417f, #253e7e, #243c7e, #2d3d88, #373e92, #433e9c, #513da4);
+    background-image: linear-gradient(to bottom, #3a2c34, #3a2e38, #38303c, #373240, #343443, #333548, #30364c, #2d3851, #2d3858, #2e385f, #313866, #35376c);
 }
 #modal__contact.active {
     display: block;
